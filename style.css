@@ -52,4 +52,21 @@ section{
     margin: 0 5%;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+
+#wev-dev-exp{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple,tomato);
+    border-image-slice: 1;
+    
+}
+
+footer p{
+    text-align: center;
 }
