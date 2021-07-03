@@ -10,7 +10,7 @@ h1{
     color: orange;
 }
 section{
-    display: flex;
+    
     margin-bottom: 100px;
 }
 .half-width{
@@ -37,4 +37,19 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    padding: 10px;
+    margin: 0 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
 }
